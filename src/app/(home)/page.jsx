@@ -3,8 +3,8 @@ import { BackgroundGradientAnimation } from './components/BackgroundGradientAnim
 
 export default function Home() {
 	return (
-		<>
+		<div>
 			<BackgroundGradientAnimation />
-		</>
+		</div>
 	);
 }
