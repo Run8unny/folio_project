@@ -19,6 +19,7 @@ module.exports = {
 				third: 'moveInCircle 40s linear infinite',
 				fourth: 'moveHorizontal 40s ease infinite',
 				fifth: 'moveInCircle 20s ease infinite',
+				aurora: 'aurora 80s linear infinite',
 			},
 			keyframes: {
 				moveHorizontal: {
@@ -52,6 +53,14 @@ module.exports = {
 					},
 					'100%': {
 						transform: 'translateY(-50%)',
+					},
+				},
+				aurora: {
+					from: {
+						backgroundPosition: '70% 50%, 30% 10%',
+					},
+					to: {
+						backgroundPosition: '250% 50%, 450% 70%',
 					},
 				},
 			},
